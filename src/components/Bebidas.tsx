@@ -6,14 +6,14 @@ import { CardProduto } from './cardProduto';
 export function Bebidas(){
   return(
     <Dialog.Root>
-      <Dialog.Trigger className='bg-red-600 w-[250px]  h-[200px] rounded-md shadow-xl flex flex-col items-center justify-center gap-3 hover:bg-red-500 transition-all duration-700'>
+      <Dialog.Trigger className='bg-red-600/90 w-[225px] h-[200px] rounded-md shadow-xl flex flex-col items-center justify-center gap-3 hover:bg-red-500 transition-all duration-700'>
         <svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70" fill='white'>
           <path fill='white' d="M240-120v-80h200v-200L120-760v-80h720v80L520-400v200h200v80H240Zm58-560h364l72-80H226l72 80Zm182 204 111-124H369l111 124Zm0 0Z"/>
         </svg>
         <p className='text-white font-medium text-lg'>Bebidas</p>
       </Dialog.Trigger>
       <Dialog.Portal>
-          <Dialog.Content className='w-screen h-screen absolute bg-white inset-0 transition-all duration-700 overflow-x-hidden'>
+          <Dialog.Content className='w-screen h-screen absolute bg-white inset-0 transition-all duration-700 overflow-x-hidden px-auto flex flex-col'>
             <div id='header-bebidas' className='flex justify-between items-center p-6'>
               <img src={LogoBebidas} alt="" width={200}/>
               <Dialog.Close>
@@ -22,7 +22,7 @@ export function Bebidas(){
                 </svg>
               </Dialog.Close>
             </div>
-            <section className='flex flex-wrap items-center justify-center gap-8'>
+            <section className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center justify-center gap-8 auto-rows-[300px] mx-auto mb-12'>
               <CardProduto
                 image="https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F118271106%2Frefrigerante-coca-cola-garrafa-2-l-1.jpg%3Fv%3D638217385053270000&w=384&q=75"
                 title="Coca Cola"

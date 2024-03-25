@@ -1,9 +1,12 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import { Bebidas } from "./components/Bebidas";
 import { Pizzas } from "./components/Pizzas";
 
 import Logo from './assets/logo.png'
-
 export function App() {
+  AOS.init();
   return (
     <main className="flex flex-col items-center justify-center px-6 py-8 min-h-screen gap-12">
       <img src={Logo} alt="" />
