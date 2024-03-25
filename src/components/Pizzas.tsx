@@ -35,31 +35,41 @@ export function Pizzas(){
                 image={pizza_frango}
                 title="Frango com catupiry"
                 desc="Frango desfiado, catupiry, molho de tomate"
-                price="R$ 48,00"
+                priceP='R$35,00'
+                priceM='R$35,00'
+                priceG='R$35,00'
               />
               <CardProduto
                 image={pizza_calabresa}
                 title="Calabresa"
                 desc="Calabresa, mussarela, molho de tomate"
-                price="R$ 43,00"
+                priceP='R$35,00'
+                priceM='R$35,00'
+                priceG='R$35,00'
               />
               <CardProduto
                 image={pizza_peruana}
                 title="Peruana"
                 desc="Azeitona preta, ovo, palmito, cebola, orégano, calabresa"
-                price="R$ 52,00"
+                priceP='R$35,00'
+                priceM='R$35,00'
+                priceG='R$35,00'
               />
               <CardProduto
                 image={pizza_muçarela}
                 title="Muçarela"
                 desc="Queijo muçarela, orégano, tomate"
-                price="R$ 44,00"
+                priceP='R$35,00'
+                priceM='R$35,00'
+                priceG='R$35,00'
               />
               <CardProduto
                 image={pizza_chocolate}
                 title="Chocolate"
                 desc="Chocolate ao leite com chocolate branco"
-                price="R$ 50,00"
+                priceP='R$35,00'
+                priceM='R$35,00'
+                priceG='R$35,00'
               />
             </section>
         </Dialog.Content>

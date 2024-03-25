@@ -27,31 +27,41 @@ export function Bebidas(){
                 image="https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F118271106%2Frefrigerante-coca-cola-garrafa-2-l-1.jpg%3Fv%3D638217385053270000&w=384&q=75"
                 title="Coca Cola"
                 desc="Coca-cola 2L"
-                price="R$ 10,00"
+                priceP='R$ 35,00'
+                priceM='R$ 35,00'
+                priceG='R$ 35,00'
               />
               <CardProduto
                 image="https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F106437032%2Frefrigerante-guarana-antarctica-garrafa-2l-1.jpg%3Fv%3D638144885863600000&w=384&q=75"
                 title="Guarána"
                 desc="Guarána 2L"
-                price="R$ 10,00"
+                priceP='R$ 35,00'
+                priceM='R$ 35,00'
+                priceG='R$ 35,00'
               />
               <CardProduto
                 image="https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F67855482%2F5473969_1.jpg%3Fv%3D637945340966800000&w=384&q=75"
                 title="Sprite"
                 desc="Sprite 2L"
-                price="R$ 10,00"
+                priceP='R$ 35,00'
+                priceM='R$ 35,00'
+                priceG='R$ 35,00'
               />
               <CardProduto
                 image="https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F112153423%2FSuco-Fresh-De-Uva-Del-Valle-15l.jpg%3Fv%3D638191627021800000&w=384&q=75"
                 title="Del Valle Uva"
                 desc="Del Valle 1,5L"
-                price="R$ 10,00"
+                priceP='R$ 35,00'
+                priceM='R$ 35,00'
+                priceG='R$ 35,00'
               />
               <CardProduto
                 image="https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F112156382%2FSuco-De-Laranja-Fresh-Del-Valle-15l.jpg%3Fv%3D638191643808630000&w=384&q=75"
                 title="Del Valle Laranja"
                 desc="Del Valle 1,5L"
-                price="R$ 10,00"
+                priceP='R$ 35,00'
+                priceM='R$ 35,00'
+                priceG='R$ 35,00'
               />
             </section>
         </Dialog.Content>
