@@ -1,7 +1,15 @@
-import * as Dialog from '@radix-ui/react-dialog';
+import { CardProduto } from './cardProduto'
+import * as Dialog from '@radix-ui/react-dialog'
 
 import LogoPizzas from '../assets/logoPizzas.png'
-import { CardProduto } from './cardProduto';
+
+/* importando imagens das pizzas */
+
+import pizza_calabresa from '../assets/pizzas/pizza_calabresa.png'
+import pizza_peruana from '../assets/pizzas/pizza_portuguesa.png'
+import pizza_muçarela from '../assets/pizzas/pizza_queijo.png'
+import pizza_chocolate from '../assets/pizzas/pizza_chocolate.png'
+import pizza_frango from '../assets/pizzas/pizza_frango_catupiry.png'
 
 export function Pizzas(){
   return(
@@ -24,22 +32,34 @@ export function Pizzas(){
             </div>
             <section className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center justify-center gap-8 auto-rows-[300px] mx-auto mb-12'>
               <CardProduto
-                image="https://www.incrivel.com/_next/image/?url=https%3A%2F%2Fincrivel-prd.adtsys.com.br%2Fwp-content%2Fuploads%2F2022%2F11%2Fpizza_frango.png&w=1920&q=75"
+                image={pizza_frango}
                 title="Frango com catupiry"
                 desc="Frango desfiado, catupiry, molho de tomate"
                 price="R$ 48,00"
               />
               <CardProduto
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQgpq2XwycfT3lGx_YRWquFYLrH9mNdFS4pGkzuhziIA&s"
+                image={pizza_calabresa}
                 title="Calabresa"
                 desc="Calabresa, mussarela, molho de tomate"
                 price="R$ 43,00"
               />
               <CardProduto
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDxvAyKlAjwNizb7FizFSKgLRD7ZcTqCzah0MNn9dYHw&s"
+                image={pizza_peruana}
                 title="Peruana"
                 desc="Azeitona preta, ovo, palmito, cebola, orégano, calabresa"
-                price="R$ 10,00"
+                price="R$ 52,00"
+              />
+              <CardProduto
+                image={pizza_muçarela}
+                title="Muçarela"
+                desc="Queijo muçarela, orégano, tomate"
+                price="R$ 44,00"
+              />
+              <CardProduto
+                image={pizza_chocolate}
+                title="Chocolate"
+                desc="Chocolate ao leite com chocolate branco"
+                price="R$ 50,00"
               />
             </section>
         </Dialog.Content>
