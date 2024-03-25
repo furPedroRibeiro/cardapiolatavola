@@ -1,4 +1,4 @@
-import { CardProduto } from './cardProduto'
+import { CardPizza } from './cardPizzas'
 import * as Dialog from '@radix-ui/react-dialog'
 
 import LogoPizzas from '../assets/logoPizzas.png'
@@ -30,8 +30,8 @@ export function Pizzas(){
                 </svg>
               </Dialog.Close>
             </div>
-            <section className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center justify-center gap-8 auto-rows-[300px] mx-auto mb-12'>
-              <CardProduto
+            <section className='grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-8 auto-rows-[320px] mx-auto mb-12'>
+              <CardPizza
                 image={pizza_frango}
                 title="Frango com catupiry"
                 desc="Frango desfiado, catupiry, molho de tomate"
@@ -39,7 +39,7 @@ export function Pizzas(){
                 priceM='R$35,00'
                 priceG='R$35,00'
               />
-              <CardProduto
+              <CardPizza
                 image={pizza_calabresa}
                 title="Calabresa"
                 desc="Calabresa, mussarela, molho de tomate"
@@ -47,7 +47,7 @@ export function Pizzas(){
                 priceM='R$35,00'
                 priceG='R$35,00'
               />
-              <CardProduto
+              <CardPizza
                 image={pizza_peruana}
                 title="Peruana"
                 desc="Azeitona preta, ovo, palmito, cebola, orégano, calabresa"
@@ -55,7 +55,7 @@ export function Pizzas(){
                 priceM='R$35,00'
                 priceG='R$35,00'
               />
-              <CardProduto
+              <CardPizza
                 image={pizza_muçarela}
                 title="Muçarela"
                 desc="Queijo muçarela, orégano, tomate"
@@ -63,7 +63,7 @@ export function Pizzas(){
                 priceM='R$35,00'
                 priceG='R$35,00'
               />
-              <CardProduto
+              <CardPizza
                 image={pizza_chocolate}
                 title="Chocolate"
                 desc="Chocolate ao leite com chocolate branco"
