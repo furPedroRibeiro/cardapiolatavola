@@ -8,7 +8,7 @@ interface PropsCard{
 export function CardBebida(props: PropsCard){
   return(
     <div
-      className="flex flex-col justify-center items-center px-3 py-2 gap-2 h-[300px] w-[250px] border border-stone-400 rounded-xl shadow-xl">
+      className="flex flex-col justify-center items-center px-3 py-2 gap-2 h-[300px] w-[250px] border border-stone-400 rounded-xl shadow-md">
       <img src={props.image} alt="" width={100} className=""/>
       <div className="flex flex-col items-center justify-center gap-1">
         <h2 className="font-bold text-lg text-center text-red-600">{props.title}</h2>
